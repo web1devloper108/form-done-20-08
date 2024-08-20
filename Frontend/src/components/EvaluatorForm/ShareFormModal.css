@@ -1,0 +1,440 @@
+@keyframes fadeInCustomeditformmodal {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to { 
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.modal-overlay-customeditformmodal {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content-customeditformmodal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  width: 400px;
+  z-index: 1000;
+  animation: fadeInCustomeditformmodal 0.3s ease-out; /* Apply fade-in animation */
+}
+
+
+.modal-content-customeditformmodal h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+
+}
+
+.modal-content-customeditformmodal p {
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.modal-header-customeditformmodal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-icon-customeditformmodal {
+  background: none;
+  border: none; 
+  font-size: 0.9rem;
+  cursor: pointer;
+  color: rgb(182, 182, 182);
+}
+
+.close-icon-customeditformmodal:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.modal-body-customeditformmodal {
+  margin-top: 10px;
+}
+
+.textinlink-customeditformmodal {
+  text-align: left;
+  font-weight: 500;
+}
+
+.link-container-customeditformmodal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.share-link-input-customeditformmodal {
+  width: 70%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.copy-link-button-customeditformmodal {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #0077b5; /* Blue color for copy link button */
+  color: white;
+  padding: 9px 8px; /* Adjust padding for appropriate size */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8em; 
+}
+
+.copy-link-button-customeditformmodal .link-icon-customeditformmodal {
+  font-size: 1em;
+}
+
+.share-buttons-customeditformmodal {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0; 
+}
+
+.icon-buttoneditformmodal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-icon-linkedineditformmodal, .custom-icon-whatsappeditformmodal, .custom-icon-emaileditformmodal {
+  width: 34px;
+  height: 34px;
+  border-radius: 4px;
+}
+
+.custom-icon-linkedineditformmodal {
+  color: #ffffff;
+  background-color: #0077b5;
+}
+
+.custom-icon-whatsappeditformmodal {
+  color: #ffffff;
+  background-color: #25d366;
+}
+
+.custom-icon-emaileditformmodal {
+  color: #ffffff;
+  background-color: #d44638;
+}
+ 
+.textinlink-customeditformmodal p { 
+  margin-bottom: 15px;
+  margin-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* // /////before css class selector  */
+
+
+
+/* @keyframes fadeInCustom {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.modal-overlay-custom {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content-custom {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  width: 400px;
+  z-index: 1000;
+  animation: fadeInCustom 0.3s ease-out; 
+}
+
+.modal-header-custom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-icon-custom {
+  background: none;
+  border: none;
+  font-size: 1.0em;
+  cursor: pointer;
+  color: #000000; 
+}
+
+.close-icon-custom:hover {
+  color: #ff6666; 
+}
+
+.modal-body-custom {
+  margin-top: 10px;
+}
+
+.textinlink-custom {
+  text-align: left;
+  font-weight: 550;
+}
+
+.link-container-custom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.share-link-input-custom {
+  width: 70%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.copy-link-button-custom {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #0077b5; 
+  color: white;
+  padding: 8px 12px; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.copy-link-button-custom .link-icon-custom {
+  font-size: 1em;
+}
+
+.share-buttons-custom {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.icon-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-icon-linkedin, .custom-icon-whatsapp, .custom-icon-email {
+  width: 34px;
+  height: 34px;
+  border-radius: 4px;
+}
+
+.custom-icon-linkedin {
+  color: #ffffff;
+  background-color: #0077b5;
+}
+
+.custom-icon-whatsapp {
+  color: #ffffff;
+  background-color: #25d366;
+}
+
+.custom-icon-email {
+  color: #ffffff;
+  background-color: #d44638;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+/* @keyframes fadeInCustom {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.modal-overlay-custom {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content-custom {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  width: 400px;
+  z-index: 1000;
+  animation: fadeInCustom 0.3s ease-out; 
+}
+
+.modal-header-custom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-icon-custom {
+  background: none;
+  border: none;
+  font-size: 1.0em;
+  cursor: pointer;
+  color: #ff0000;
+}
+
+.close-icon-custom:hover {
+  color: #ff6666; 
+}
+
+.modal-body-custom {
+  margin-top: 10px;
+}
+
+.textinlink-custom {
+  text-align: left;
+  font-weight: 550;
+}
+
+.link-container-custom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.share-link-input-custom {
+  width: 70%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.copy-link-button-custom {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #0077b5; 
+  color: white;
+  padding: 8px 12px; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.copy-link-button-custom .link-icon-custom {
+  font-size: 1em;
+}
+
+.share-buttons-custom {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.share-buttons-custom a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.share-buttons-custom a:hover {
+  opacity: 0.8;
+}
+
+.icon-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-icon-linkedin, .custom-icon-whatsapp, .custom-icon-email {
+  width: 34px;
+  height: 34px;
+  border-radius: 4px;
+}
+
+.custom-icon-linkedin {
+  color: #ffffff;
+  background-color: #0077b5;
+}
+
+.custom-icon-whatsapp {
+  color: #ffffff;
+  background-color: #25d366;
+}
+
+.custom-icon-email {
+  color: #ffffff;
+  background-color: #d44638;
+} */
